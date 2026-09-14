@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020891B8DBB7563A45357ED261CD5FB3 /* ColorResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */; };
+		0718CB1A15D89FACC437E38675703DD5 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */; };
+		1349234165FADA4114A6C9F7906D4349 /* FontResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */; };
+		218EBF1EC8884D2182367D17B47116CE /* Pods-HoursTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D407FB4B664B4BCD1814E84AEBBD4A /* Pods-HoursTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27093D2C5DCCE8226BC0CAC93F924858 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */; };
+		30727C566159EDE5998663631019324E /* Pods-HoursTracker-HoursTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3D38AE7394249896F56C1369A1BAC1 /* Pods-HoursTracker-HoursTrackerUITests-dummy.m */; };
+		31C6FEAB5D1205B6E687077AFFDE5384 /* FileResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */; };
+		32EF1EF97440878F4F742A06F9173FB4 /* ReuseIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */; };
+		3B2D8A1BB36F7D0E355AE7A3AF673B37 /* Pods-HoursTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F298C24ABE1C7EBFEE727A87D6B4 /* Pods-HoursTracker-dummy.m */; };
+		3B3A25E4844013919D04B9475C39609D /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */; };
+		3CACC1BE73EC19170BE1F06DB01E4001 /* DeploymentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */; };
+		4F6FADA93E698823F866AD21EE09B4A8 /* Unifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C482F10A390654E35292751252B7F3 /* Unifiable.swift */; };
+		500EEC5A101486742FDEBA4251BFA340 /* ImageResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */; };
+		54E74A94997A0AC24192E38696D76DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		57B6378D51D47758687B2A86F0A616D0 /* Pods-HoursTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6D07A7C75D26AFC02B7BE9C65600BA /* Pods-HoursTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6792D7FE0D65D94BFAFF2D58DFC25D /* AssetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */; };
+		67A9C5A90CB423CF2ADD7F024937FDA6 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */; };
+		6EE3D4BBFA9CB89E6E731B5295C9C1B4 /* Pods-HoursTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55712DA899A32FE223A3BF66B6106C56 /* Pods-HoursTrackerTests-dummy.m */; };
+		76EBCA468C6E4B204D23D6CC37748BB8 /* DataResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */; };
+		778866614CD49C69A0DCFF0198D4D0E2 /* StringResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */; };
+		7FDC43F578BCF977616DCE517F634A8D /* PropertyListResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */; };
+		877D8F603DBCA622C99D71A6AF7AE861 /* NameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */; };
+		9657283C2834C4C9A272E328101151F8 /* ModuleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */; };
+		99232DB4F45CD14D2E6A9E82D74600E9 /* Pods-HoursTracker-HoursTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BAAFB7C03056E324178EEF16AE08E5 /* Pods-HoursTracker-HoursTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996918C542708D92D90A67FD1D16A4B3 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */; };
+		9AF02522D5957F6CAD775F1AF2A03E6A /* TypeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */; };
+		A5AAD357854CD447259D751B55D8D744 /* R.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */; };
+		AAA4FDF159D2426DB93F592141534271 /* R.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30659D96396326C7A2CA95F524E0FA6 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */; };
+		B61334E26C4921727344A1B19C3441B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		B8668BE11DEF6CB85A1ACFB2D4ABEDDA /* StringsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */; };
+		B97A55F85AE8E29295FE4DCEFEE922B1 /* NibReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */; };
+		BC222EBB01AD730C4A2F245472EDFF72 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */; };
+		BD8F88A03527C0D2D44979D47C05267A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		C0382725FF8360EC4C26537FE319C1F2 /* LocaleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */; };
+		C3E4AAD2EAB37883F5F361FA5DB5F20F /* DataResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */; };
+		CA604F841BCE79F1A7B378583F794D6E /* StringParam+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */; };
+		CB1D78A91078E4D00486A07F7D1449B7 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */; };
+		CEFC6C72EE2C964B0998FEC1B687FA6F /* SegueIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */; };
+		D640820D8F2333F1FC2953B78D186FEF /* StoryboardReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */; };
+		ED60A5DC1FBA322B8829D17DACF25FC5 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */; };
+		F3620ACD4DD871900B4F47F927EDFD86 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */; };
+		F36718AFEBB9AF283D159FD32544826E /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */; };
+		FBCF2E627085A82784544DF73801DB07 /* StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */; };
+		FCDB9552A19104A60F566AF27E1EA46D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371C6E0D3AD19E5504AD41E0D6EA57A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		7C81CEDE95212D10D04DF2DD1CBF1B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		968047AF3E7908D275FE616EEA667484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9C05ABD5488B0A084C543A6DF7BE1C;
+			remoteInfo = "Pods-HoursTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0075B65A99E4E2E8690AF1618C378430 /* Pods-HoursTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HoursTrackerTests.modulemap"; sourceTree = "<group>"; };
+		0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListResource.swift; path = Sources/RswiftResources/PropertyListResource.swift; sourceTree = "<group>"; };
+		05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Sources/RswiftResources/ColorResource.swift; sourceTree = "<group>"; };
+		074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeReference.swift; path = Sources/RswiftResources/Shared/TypeReference.swift; sourceTree = "<group>"; };
+		1D980A8AF5A0D8924FE45E5199085F5E /* Pods-HoursTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoursTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/RswiftResources/Shared/Reusable.swift; sourceTree = "<group>"; };
+		225ADE897A53F2B92640A8F68C190565 /* Pods-HoursTracker-HoursTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTracker-HoursTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		25A5F298C24ABE1C7EBFEE727A87D6B4 /* Pods-HoursTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoursTracker-dummy.m"; sourceTree = "<group>"; };
+		28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Sources/RswiftResources/NibResource.swift; sourceTree = "<group>"; };
+		29C482F10A390654E35292751252B7F3 /* Unifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unifiable.swift; path = Sources/RswiftResources/Shared/Unifiable.swift; sourceTree = "<group>"; };
+		2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33567C7F350D556316E44CA5ED7136B7 /* Pods-HoursTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTracker.release.xcconfig"; sourceTree = "<group>"; };
+		35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringParam+Extensions.swift"; path = "Sources/RswiftResources/Shared/StringParam+Extensions.swift"; sourceTree = "<group>"; };
+		36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StoryboardReference+Integrations.swift"; sourceTree = "<group>"; };
+		37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleReference.swift; path = Sources/RswiftResources/Shared/ModuleReference.swift; sourceTree = "<group>"; };
+		3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RswiftResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD94F3C69C91B885344448DFEE422A4 /* Pods_HoursTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoursTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Sources/RswiftResources/FontResource.swift; sourceTree = "<group>"; };
+		4C3B066688497C2B2BAD224D1F3DEC3E /* Pods-HoursTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C54BC031A57072D345177A96167CAA7 /* Pods-HoursTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HoursTracker.modulemap"; sourceTree = "<group>"; };
+		55712DA899A32FE223A3BF66B6106C56 /* Pods-HoursTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoursTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegueIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/SegueIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ImageResource+Integrations.swift"; sourceTree = "<group>"; };
+		5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataResource.swift; path = Sources/RswiftResources/DataResource.swift; sourceTree = "<group>"; };
+		5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StringResource+Integrations.swift"; sourceTree = "<group>"; };
+		5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Sources/RswiftResources/StringResource.swift; sourceTree = "<group>"; };
+		61DED61672D7D35A6B71712B923CDAD6 /* Pods-HoursTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Sources/RswiftResources/StoryboardResource.swift; sourceTree = "<group>"; };
+		6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift-dummy.m"; sourceTree = "<group>"; };
+		787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FileResource+Integrations.swift"; sourceTree = "<group>"; };
+		7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleReference.swift; path = Sources/RswiftResources/Shared/LocaleReference.swift; sourceTree = "<group>"; };
+		7DC9396360F3DDA959A1D5B1C361A52C /* Pods-HoursTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		84D407FB4B664B4BCD1814E84AEBBD4A /* Pods-HoursTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoursTracker-umbrella.h"; sourceTree = "<group>"; };
+		85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Sources/RswiftResources/Shared/ValidationError.swift; sourceTree = "<group>"; };
+		883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ColorResource+Integrations.swift"; sourceTree = "<group>"; };
+		88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Sources/RswiftResources/ImageResource.swift; sourceTree = "<group>"; };
+		8BDB57F981F2524471511824ABC87215 /* Pods-HoursTracker-HoursTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoursTracker-HoursTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FA20126A7FDDB10D01CC298A326CE36 /* Pods-HoursTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoursTracker-frameworks.sh"; sourceTree = "<group>"; };
+		91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Sources/RswiftResources/Integrations/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		93C4ED02D50C02288AA031845A71C3B6 /* Pods-HoursTracker-HoursTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTracker-HoursTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetCatalog.swift; path = Sources/RswiftResources/AssetCatalog.swift; sourceTree = "<group>"; };
+		96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringsTable.swift; path = Sources/RswiftResources/Shared/StringsTable.swift; sourceTree = "<group>"; };
+		99CD6AB1AF99CBEF901EF546A5ECD753 /* Pods-HoursTracker-HoursTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HoursTracker-HoursTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		9A1115D8B5106E1D4E6DA8974AE35510 /* Pods-HoursTracker-HoursTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTracker-HoursTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		A38DA5BBCAA90B7B887B74B109E39379 /* Pods_HoursTracker_HoursTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoursTracker_HoursTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A638C9CE9EA427AB96C716A3D34CE852 /* Pods-HoursTracker-HoursTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoursTracker-HoursTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A9FB4BADBE5F8BC43F4B4BCE36886429 /* R.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.modulemap; sourceTree = "<group>"; };
+		AA6D07A7C75D26AFC02B7BE9C65600BA /* Pods-HoursTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoursTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		AC3D38AE7394249896F56C1369A1BAC1 /* Pods-HoursTracker-HoursTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoursTracker-HoursTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		B49AC8071FFCA26D0E61A99E7D8879F6 /* Pods-HoursTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTracker-Info.plist"; sourceTree = "<group>"; };
+		B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
+		B89AEDCEF66E5BE424C6D0452784F4CE /* Pods-HoursTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoursTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardReference.swift; path = Sources/RswiftResources/Shared/StoryboardReference.swift; sourceTree = "<group>"; };
+		BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameCatalog.swift; path = Sources/RswiftResources/Shared/NameCatalog.swift; sourceTree = "<group>"; };
+		C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FontResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FontResource+Integrations.swift"; sourceTree = "<group>"; };
+		C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReuseIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ReuseIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-umbrella.h"; sourceTree = "<group>"; };
+		CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeploymentTarget.swift; path = Sources/RswiftResources/Shared/DeploymentTarget.swift; sourceTree = "<group>"; };
+		D4098C620B1F56FB34AE7C4374FC53F3 /* Pods-HoursTracker-HoursTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTracker-HoursTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D995C3DD6F0DC465B77B5B72F050B635 /* Pods-HoursTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Sources/RswiftResources/FileResource.swift; sourceTree = "<group>"; };
+		DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/NibReference+Integrations.swift"; sourceTree = "<group>"; };
+		DDB33A271B7F2DFBAE1265F98B1CBD82 /* Pods_HoursTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoursTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E862454E3E303DD9D7CE69DC2F358ED6 /* R.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-prefix.pch"; sourceTree = "<group>"; };
+		EC6B7A553ACAD8CC5E24F5DE3919681B /* R.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift-Info.plist"; sourceTree = "<group>"; };
+		F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParam.swift; path = Sources/RswiftResources/Shared/StringParam.swift; sourceTree = "<group>"; };
+		F7BAAFB7C03056E324178EEF16AE08E5 /* Pods-HoursTracker-HoursTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoursTracker-HoursTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		F857902EF2CE5CC2F932E217878FFDEF /* Pods-HoursTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoursTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA70138F2E3FFF8721853059C5F0F06E /* Pods-HoursTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoursTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/DataResource+Integrations.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DDA30EF4E0FA26567CA12979A3C8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDB9552A19104A60F566AF27E1EA46D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C64588E8899237F438930BEA53D1CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E74A94997A0AC24192E38696D76DB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7CCC299FCFAEB895DECFA0EE3F745B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8F88A03527C0D2D44979D47C05267A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41A42A40C01E9272C47351493F67446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61334E26C4921727344A1B19C3441B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C08874F0262CA73C1439F16FE4A066D /* Pods-HoursTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0075B65A99E4E2E8690AF1618C378430 /* Pods-HoursTrackerTests.modulemap */,
+				1D980A8AF5A0D8924FE45E5199085F5E /* Pods-HoursTrackerTests-acknowledgements.markdown */,
+				FA70138F2E3FFF8721853059C5F0F06E /* Pods-HoursTrackerTests-acknowledgements.plist */,
+				55712DA899A32FE223A3BF66B6106C56 /* Pods-HoursTrackerTests-dummy.m */,
+				61DED61672D7D35A6B71712B923CDAD6 /* Pods-HoursTrackerTests-Info.plist */,
+				AA6D07A7C75D26AFC02B7BE9C65600BA /* Pods-HoursTrackerTests-umbrella.h */,
+				4C3B066688497C2B2BAD224D1F3DEC3E /* Pods-HoursTrackerTests.debug.xcconfig */,
+				F857902EF2CE5CC2F932E217878FFDEF /* Pods-HoursTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-HoursTrackerTests";
+			path = "Target Support Files/Pods-HoursTrackerTests";
+			sourceTree = "<group>";
+		};
+		2D3A24BDBDED437A9981C208E1A10DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB33A271B7F2DFBAE1265F98B1CBD82 /* Pods_HoursTracker.framework */,
+				A38DA5BBCAA90B7B887B74B109E39379 /* Pods_HoursTracker_HoursTrackerUITests.framework */,
+				3FD94F3C69C91B885344448DFEE422A4 /* Pods_HoursTrackerTests.framework */,
+				3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669A6AE0DC95512B77AF70E53438F2C2 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */,
+				91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */,
+				05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */,
+				883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */,
+				5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */,
+				FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */,
+				CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */,
+				DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */,
+				787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */,
+				46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */,
+				C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */,
+				88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */,
+				59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */,
+				7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */,
+				37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */,
+				BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */,
+				DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */,
+				28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */,
+				0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */,
+				204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */,
+				C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */,
+				57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */,
+				BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */,
+				36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */,
+				6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */,
+				F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */,
+				35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */,
+				5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */,
+				5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */,
+				96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */,
+				074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */,
+				29C482F10A390654E35292751252B7F3 /* Unifiable.swift */,
+				85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */,
+				765F0263F867C16876ADF9339EEB9589 /* Support Files */,
+			);
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		765F0263F867C16876ADF9339EEB9589 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB4BADBE5F8BC43F4B4BCE36886429 /* R.swift.modulemap */,
+				6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */,
+				EC6B7A553ACAD8CC5E24F5DE3919681B /* R.swift-Info.plist */,
+				E862454E3E303DD9D7CE69DC2F358ED6 /* R.swift-prefix.pch */,
+				CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */,
+				B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */,
+				9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+		7AECBA61365544F357B06DE1C8710425 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669A6AE0DC95512B77AF70E53438F2C2 /* R.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA3A514F8C52C745F1BF792597066F9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15F798916F84360AA4EA848F43CA77B /* Pods-HoursTracker */,
+				D730BE57CAA971522668615C62F7015D /* Pods-HoursTracker-HoursTrackerUITests */,
+				1C08874F0262CA73C1439F16FE4A066D /* Pods-HoursTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */,
+				2D3A24BDBDED437A9981C208E1A10DD4 /* Products */,
+				BA3A514F8C52C745F1BF792597066F9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15F798916F84360AA4EA848F43CA77B /* Pods-HoursTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4C54BC031A57072D345177A96167CAA7 /* Pods-HoursTracker.modulemap */,
+				B89AEDCEF66E5BE424C6D0452784F4CE /* Pods-HoursTracker-acknowledgements.markdown */,
+				7DC9396360F3DDA959A1D5B1C361A52C /* Pods-HoursTracker-acknowledgements.plist */,
+				25A5F298C24ABE1C7EBFEE727A87D6B4 /* Pods-HoursTracker-dummy.m */,
+				8FA20126A7FDDB10D01CC298A326CE36 /* Pods-HoursTracker-frameworks.sh */,
+				B49AC8071FFCA26D0E61A99E7D8879F6 /* Pods-HoursTracker-Info.plist */,
+				84D407FB4B664B4BCD1814E84AEBBD4A /* Pods-HoursTracker-umbrella.h */,
+				D995C3DD6F0DC465B77B5B72F050B635 /* Pods-HoursTracker.debug.xcconfig */,
+				33567C7F350D556316E44CA5ED7136B7 /* Pods-HoursTracker.release.xcconfig */,
+			);
+			name = "Pods-HoursTracker";
+			path = "Target Support Files/Pods-HoursTracker";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AECBA61365544F357B06DE1C8710425 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D730BE57CAA971522668615C62F7015D /* Pods-HoursTracker-HoursTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99CD6AB1AF99CBEF901EF546A5ECD753 /* Pods-HoursTracker-HoursTrackerUITests.modulemap */,
+				8BDB57F981F2524471511824ABC87215 /* Pods-HoursTracker-HoursTrackerUITests-acknowledgements.markdown */,
+				9A1115D8B5106E1D4E6DA8974AE35510 /* Pods-HoursTracker-HoursTrackerUITests-acknowledgements.plist */,
+				AC3D38AE7394249896F56C1369A1BAC1 /* Pods-HoursTracker-HoursTrackerUITests-dummy.m */,
+				A638C9CE9EA427AB96C716A3D34CE852 /* Pods-HoursTracker-HoursTrackerUITests-frameworks.sh */,
+				225ADE897A53F2B92640A8F68C190565 /* Pods-HoursTracker-HoursTrackerUITests-Info.plist */,
+				F7BAAFB7C03056E324178EEF16AE08E5 /* Pods-HoursTracker-HoursTrackerUITests-umbrella.h */,
+				D4098C620B1F56FB34AE7C4374FC53F3 /* Pods-HoursTracker-HoursTrackerUITests.debug.xcconfig */,
+				93C4ED02D50C02288AA031845A71C3B6 /* Pods-HoursTracker-HoursTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-HoursTracker-HoursTrackerUITests";
+			path = "Target Support Files/Pods-HoursTracker-HoursTrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		173EAE02C6F90290A5B7F3CF535DBC13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6378D51D47758687B2A86F0A616D0 /* Pods-HoursTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3726B13C75332CD24BEAF6E9FF979E35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EBF1EC8884D2182367D17B47116CE /* Pods-HoursTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DD90997D8295E9E178B8DEA444807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4FDF159D2426DB93F592141534271 /* R.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431E410BD7CD321ABBBF630F4867534B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99232DB4F45CD14D2E6A9E82D74600E9 /* Pods-HoursTracker-HoursTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05D87CA160F612D43C61CCE95EC520C3 /* Pods-HoursTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9033AD16EC0E5883CB86BD45CE600FA /* Build configuration list for PBXNativeTarget "Pods-HoursTrackerTests" */;
+			buildPhases = (
+				173EAE02C6F90290A5B7F3CF535DBC13 /* Headers */,
+				A54B3A2A1173CACC28E47F2ABDD14A72 /* Sources */,
+				02DDA30EF4E0FA26567CA12979A3C8D4 /* Frameworks */,
+				C41AB1C6B7DF8E72B7421B84AA0AD073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80A0B098D6637FF6091E4BD18437BBE /* PBXTargetDependency */,
+			);
+			name = "Pods-HoursTrackerTests";
+			productName = Pods_HoursTrackerTests;
+			productReference = 3FD94F3C69C91B885344448DFEE422A4 /* Pods_HoursTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C81B5E5506421CD1FC3F28542618BCC /* Build configuration list for PBXNativeTarget "R.swift" */;
+			buildPhases = (
+				415DD90997D8295E9E178B8DEA444807 /* Headers */,
+				5DC87746025D02F2B9B1D45BE919E846 /* Sources */,
+				AA7CCC299FCFAEB895DECFA0EE3F745B /* Frameworks */,
+				5CDF2F6285DEFB77BED35F761C28EF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift;
+			productName = RswiftResources;
+			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A9C05ABD5488B0A084C543A6DF7BE1C /* Pods-HoursTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0C66012E1475039879A5CB7875EBB7 /* Build configuration list for PBXNativeTarget "Pods-HoursTracker" */;
+			buildPhases = (
+				3726B13C75332CD24BEAF6E9FF979E35 /* Headers */,
+				BFB6BA94EF7DA3F2DC695CB3405B68CE /* Sources */,
+				9C64588E8899237F438930BEA53D1CC2 /* Frameworks */,
+				5937E95F8E0BF19DEC6CF427236836F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A353FBFF699B2860A6D0A3BFDBBEA02 /* PBXTargetDependency */,
+			);
+			name = "Pods-HoursTracker";
+			productName = Pods_HoursTracker;
+			productReference = DDB33A271B7F2DFBAE1265F98B1CBD82 /* Pods_HoursTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DACE2B1B07CD516632275DDA2D413B0D /* Pods-HoursTracker-HoursTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56A385840BA2ADD787A85E0F791C03D /* Build configuration list for PBXNativeTarget "Pods-HoursTracker-HoursTrackerUITests" */;
+			buildPhases = (
+				431E410BD7CD321ABBBF630F4867534B /* Headers */,
+				FA4D9CD6A9C05FB9C419C9992E5EFB5C /* Sources */,
+				E41A42A40C01E9272C47351493F67446 /* Frameworks */,
+				F72969A894781B439762B3A06360DF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB2C1B4816B2B2B94E272CE559C37BF /* PBXTargetDependency */,
+			);
+			name = "Pods-HoursTracker-HoursTrackerUITests";
+			productName = Pods_HoursTracker_HoursTrackerUITests;
+			productReference = A38DA5BBCAA90B7B887B74B109E39379 /* Pods_HoursTracker_HoursTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D3A24BDBDED437A9981C208E1A10DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9C05ABD5488B0A084C543A6DF7BE1C /* Pods-HoursTracker */,
+				DACE2B1B07CD516632275DDA2D413B0D /* Pods-HoursTracker-HoursTrackerUITests */,
+				05D87CA160F612D43C61CCE95EC520C3 /* Pods-HoursTrackerTests */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5937E95F8E0BF19DEC6CF427236836F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDF2F6285DEFB77BED35F761C28EF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41AB1C6B7DF8E72B7421B84AA0AD073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72969A894781B439762B3A06360DF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC87746025D02F2B9B1D45BE919E846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6792D7FE0D65D94BFAFF2D58DFC25D /* AssetCatalog.swift in Sources */,
+				F3620ACD4DD871900B4F47F927EDFD86 /* Bundle+Extensions.swift in Sources */,
+				ED60A5DC1FBA322B8829D17DACF25FC5 /* ColorResource.swift in Sources */,
+				020891B8DBB7563A45357ED261CD5FB3 /* ColorResource+Integrations.swift in Sources */,
+				76EBCA468C6E4B204D23D6CC37748BB8 /* DataResource.swift in Sources */,
+				C3E4AAD2EAB37883F5F361FA5DB5F20F /* DataResource+Integrations.swift in Sources */,
+				3CACC1BE73EC19170BE1F06DB01E4001 /* DeploymentTarget.swift in Sources */,
+				67A9C5A90CB423CF2ADD7F024937FDA6 /* FileResource.swift in Sources */,
+				31C6FEAB5D1205B6E687077AFFDE5384 /* FileResource+Integrations.swift in Sources */,
+				996918C542708D92D90A67FD1D16A4B3 /* FontResource.swift in Sources */,
+				1349234165FADA4114A6C9F7906D4349 /* FontResource+Integrations.swift in Sources */,
+				BC222EBB01AD730C4A2F245472EDFF72 /* ImageResource.swift in Sources */,
+				500EEC5A101486742FDEBA4251BFA340 /* ImageResource+Integrations.swift in Sources */,
+				C0382725FF8360EC4C26537FE319C1F2 /* LocaleReference.swift in Sources */,
+				9657283C2834C4C9A272E328101151F8 /* ModuleReference.swift in Sources */,
+				877D8F603DBCA622C99D71A6AF7AE861 /* NameCatalog.swift in Sources */,
+				B97A55F85AE8E29295FE4DCEFEE922B1 /* NibReference+Integrations.swift in Sources */,
+				3B3A25E4844013919D04B9475C39609D /* NibResource.swift in Sources */,
+				7FDC43F578BCF977616DCE517F634A8D /* PropertyListResource.swift in Sources */,
+				A5AAD357854CD447259D751B55D8D744 /* R.swift-dummy.m in Sources */,
+				0718CB1A15D89FACC437E38675703DD5 /* Reusable.swift in Sources */,
+				32EF1EF97440878F4F742A06F9173FB4 /* ReuseIdentifier+Integrations.swift in Sources */,
+				CEFC6C72EE2C964B0998FEC1B687FA6F /* SegueIdentifier+Integrations.swift in Sources */,
+				FBCF2E627085A82784544DF73801DB07 /* StoryboardReference.swift in Sources */,
+				D640820D8F2333F1FC2953B78D186FEF /* StoryboardReference+Integrations.swift in Sources */,
+				F36718AFEBB9AF283D159FD32544826E /* StoryboardResource.swift in Sources */,
+				27093D2C5DCCE8226BC0CAC93F924858 /* StringParam.swift in Sources */,
+				CA604F841BCE79F1A7B378583F794D6E /* StringParam+Extensions.swift in Sources */,
+				B30659D96396326C7A2CA95F524E0FA6 /* StringResource.swift in Sources */,
+				778866614CD49C69A0DCFF0198D4D0E2 /* StringResource+Integrations.swift in Sources */,
+				B8668BE11DEF6CB85A1ACFB2D4ABEDDA /* StringsTable.swift in Sources */,
+				9AF02522D5957F6CAD775F1AF2A03E6A /* TypeReference.swift in Sources */,
+				4F6FADA93E698823F866AD21EE09B4A8 /* Unifiable.swift in Sources */,
+				CB1D78A91078E4D00486A07F7D1449B7 /* ValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B3A2A1173CACC28E47F2ABDD14A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE3D4BBFA9CB89E6E731B5295C9C1B4 /* Pods-HoursTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB6BA94EF7DA3F2DC695CB3405B68CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2D8A1BB36F7D0E355AE7A3AF673B37 /* Pods-HoursTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D9CD6A9C05FB9C419C9992E5EFB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30727C566159EDE5998663631019324E /* Pods-HoursTracker-HoursTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB2C1B4816B2B2B94E272CE559C37BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 371C6E0D3AD19E5504AD41E0D6EA57A7 /* PBXContainerItemProxy */;
+		};
+		4A353FBFF699B2860A6D0A3BFDBBEA02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 7C81CEDE95212D10D04DF2DD1CBF1B54 /* PBXContainerItemProxy */;
+		};
+		A80A0B098D6637FF6091E4BD18437BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HoursTracker";
+			target = 2A9C05ABD5488B0A084C543A6DF7BE1C /* Pods-HoursTracker */;
+			targetProxy = 968047AF3E7908D275FE616EEA667484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE45447485695AC1B047370BD2DC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3B066688497C2B2BAD224D1F3DEC3E /* Pods-HoursTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTrackerTests/Pods-HoursTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTrackerTests/Pods-HoursTrackerTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CEBC8D8A5756BEC2E4727E2992B1222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F857902EF2CE5CC2F932E217878FFDEF /* Pods-HoursTrackerTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTrackerTests/Pods-HoursTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTrackerTests/Pods-HoursTrackerTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57079CB423776276EB3A5C6FEE61AD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift/R.swift.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = RswiftResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		618CFCD292927F58C6D763BBCE9281DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift/R.swift.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = RswiftResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6831BD695390848C72DB85A49782E0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33567C7F350D556316E44CA5ED7136B7 /* Pods-HoursTracker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTracker/Pods-HoursTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTracker/Pods-HoursTracker.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FB58300D42F4E64040684162CF6A754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D995C3DD6F0DC465B77B5B72F050B635 /* Pods-HoursTracker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTracker/Pods-HoursTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTracker/Pods-HoursTracker.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7D72D8930371A3C6E443142BC1850B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C4ED02D50C02288AA031845A71C3B6 /* Pods-HoursTracker-HoursTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8395ADE3E254886AA2EAA17D1090BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DC1998D858356883C3C9916676B13970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4098C620B1F56FB34AE7C4374FC53F3 /* Pods-HoursTracker-HoursTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2A2E50461913A336C97635AAE8833AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0C66012E1475039879A5CB7875EBB7 /* Build configuration list for PBXNativeTarget "Pods-HoursTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB58300D42F4E64040684162CF6A754 /* Debug */,
+				6831BD695390848C72DB85A49782E0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A2E50461913A336C97635AAE8833AF /* Debug */,
+				D8395ADE3E254886AA2EAA17D1090BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C81B5E5506421CD1FC3F28542618BCC /* Build configuration list for PBXNativeTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618CFCD292927F58C6D763BBCE9281DB /* Debug */,
+				57079CB423776276EB3A5C6FEE61AD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9033AD16EC0E5883CB86BD45CE600FA /* Build configuration list for PBXNativeTarget "Pods-HoursTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE45447485695AC1B047370BD2DC75E /* Debug */,
+				1CEBC8D8A5756BEC2E4727E2992B1222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56A385840BA2ADD787A85E0F791C03D /* Build configuration list for PBXNativeTarget "Pods-HoursTracker-HoursTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1998D858356883C3C9916676B13970 /* Debug */,
+				A7D72D8930371A3C6E443142BC1850B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
