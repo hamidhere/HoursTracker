@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import RswiftResources
 
 class LoginVC: UIViewController {
     
@@ -39,6 +38,9 @@ class LoginVC: UIViewController {
     }
     @IBAction func onTapPhoneNum() {
      
+        guard let phone = R.storyboard.authSB.PhoneNoVC() else {return}
+        self.navigationController?.pushViewController(phone, animated: true)
+        
     }
     
     @IBAction func onTapGuest() {

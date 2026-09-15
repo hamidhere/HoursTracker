@@ -6,7 +6,9 @@ target 'HoursTracker' do
   use_frameworks!
 
   # Pods for HoursTracker
-  pod 'R.swift'
+  
+  pod 'R.swift', '6.0.0'
+  pod 'IQKeyboardManagerSwift', '7.0'
   
   target 'HoursTrackerTests' do
     inherit! :search_paths

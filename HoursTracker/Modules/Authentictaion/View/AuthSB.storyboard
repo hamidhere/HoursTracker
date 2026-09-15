@@ -720,7 +720,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="772"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BGc-Wf-UG1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="369"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="387"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RrR-Mm-tFF" userLabel="TopView">
                                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="249"/>
@@ -754,7 +754,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWx-D5-DXc" userLabel="ContentView">
-                                                                <rect key="frame" x="0.0" y="249" width="393" height="120"/>
+                                                                <rect key="frame" x="0.0" y="249" width="393" height="138"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="DRy-d2-ibA">
                                                                         <rect key="frame" x="24" y="0.0" width="345" height="56"/>
@@ -762,23 +762,22 @@
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbM-y4-08a">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="345" height="56"/>
                                                                                 <subviews>
-                                                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHf-Dh-GDp">
+                                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MHf-Dh-GDp">
                                                                                         <rect key="frame" x="8" y="0.0" width="329" height="56"/>
                                                                                         <subviews>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-ua-8J2">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="225.66666666666666" height="56"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="+44" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-ua-8J2">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="56"/>
                                                                                                 <color key="backgroundColor" name="SurfaceSunken"/>
+                                                                                                <color key="textColor" name="TextMuted"/>
+                                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                            </textField>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="1234 567890" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UjJ-Ef-GlE">
+                                                                                                <rect key="frame" x="59.333333333333343" y="0.0" width="269.66666666666663" height="56"/>
+                                                                                                <color key="backgroundColor" name="SurfaceSunken"/>
+                                                                                                <color key="textColor" name="TextMuted"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
-                                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjN-Pb-3cb" customClass="ButtonWithImage" customModule="HoursTracker" customModuleProvider="target">
-                                                                                                <rect key="frame" x="225.66666666666671" y="0.0" width="103.33333333333334" height="56"/>
-                                                                                                <color key="tintColor" name="TextMuted"/>
-                                                                                                <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="chevron-right" imagePlacement="trailing" title="Google" imagePadding="8">
-                                                                                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="14"/>
-                                                                                                </buttonConfiguration>
-                                                                                            </button>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" name="Canvas"/>
                                                                                         <userDefinedRuntimeAttributes>
@@ -811,37 +810,33 @@
                                                                         </subviews>
                                                                         <color key="backgroundColor" name="Canvas"/>
                                                                     </stackView>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Kb-GqY">
-                                                                        <rect key="frame" x="124.66666666666667" y="74" width="143.66666666666663" height="36"/>
-                                                                        <color key="backgroundColor" name="Canvas"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="height" constant="36" id="EDU-rN-S2T"/>
-                                                                        </constraints>
-                                                                        <color key="tintColor" name="ActionPrimary"/>
-                                                                        <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" title="Continue as guest">
-                                                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="14"/>
-                                                                        </buttonConfiguration>
-                                                                    </button>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UgW-MT-fFn">
-                                                                        <rect key="frame" x="124.66666666666667" y="107" width="143.66666666666663" height="1"/>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Kb-GqY">
+                                                                        <rect key="frame" x="24" y="74" width="345" height="54"/>
                                                                         <color key="backgroundColor" name="ActionPrimary"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="height" constant="1" id="wFz-j3-iBS"/>
+                                                                            <constraint firstAttribute="height" constant="54" id="EDU-rN-S2T"/>
                                                                         </constraints>
-                                                                    </view>
+                                                                        <color key="tintColor" name="Canvas"/>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" title="Continue as guest">
+                                                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="27"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
                                                                 </subviews>
                                                                 <color key="backgroundColor" name="Canvas"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="trailing" secondItem="DRy-d2-ibA" secondAttribute="trailing" constant="24" id="658-m4-a1A"/>
                                                                     <constraint firstItem="ArR-Kb-GqY" firstAttribute="top" secondItem="DRy-d2-ibA" secondAttribute="bottom" constant="18" id="7at-H8-f6H"/>
-                                                                    <constraint firstItem="UgW-MT-fFn" firstAttribute="centerX" secondItem="ArR-Kb-GqY" secondAttribute="centerX" id="Cxb-E5-bvh"/>
-                                                                    <constraint firstItem="UgW-MT-fFn" firstAttribute="top" secondItem="ArR-Kb-GqY" secondAttribute="bottom" constant="-3" id="DQ0-uk-SqB"/>
-                                                                    <constraint firstAttribute="bottom" secondItem="UgW-MT-fFn" secondAttribute="bottom" constant="12" id="Rkg-f9-iO7"/>
+                                                                    <constraint firstItem="ArR-Kb-GqY" firstAttribute="leading" secondItem="TWx-D5-DXc" secondAttribute="leading" constant="24" id="Tge-wS-Mkx"/>
                                                                     <constraint firstItem="DRy-d2-ibA" firstAttribute="leading" secondItem="TWx-D5-DXc" secondAttribute="leading" constant="24" id="Wcd-Un-mFe"/>
                                                                     <constraint firstItem="ArR-Kb-GqY" firstAttribute="centerX" secondItem="TWx-D5-DXc" secondAttribute="centerX" id="Xfq-rY-Jr6"/>
-                                                                    <constraint firstItem="UgW-MT-fFn" firstAttribute="leading" secondItem="ArR-Kb-GqY" secondAttribute="leading" id="mL0-Z5-Mbh"/>
-                                                                    <constraint firstItem="UgW-MT-fFn" firstAttribute="trailing" secondItem="ArR-Kb-GqY" secondAttribute="trailing" id="pVD-Ka-WW6"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="ArR-Kb-GqY" secondAttribute="bottom" constant="10" id="ZYc-Ud-jTh"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="ArR-Kb-GqY" secondAttribute="trailing" constant="24" id="Zbh-Wk-LNN"/>
                                                                     <constraint firstItem="DRy-d2-ibA" firstAttribute="top" secondItem="TWx-D5-DXc" secondAttribute="top" id="tvs-V7-Jgx"/>
                                                                 </constraints>
                                                             </view>
