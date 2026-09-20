@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RswiftResources
 
 class LoginVC: UIViewController {
     
@@ -32,13 +33,25 @@ class LoginVC: UIViewController {
     
     @IBAction func onTapLoginGoogle() {
         
+        guard let google = R.storyboard.authSB.loginGoogleVC() else {return}
+        self.navigationController?.pushViewController(google, animated: true)
+        
+        
     }
     @IBAction func onTaploginEmail() {
-     
+        
+        guard let email = R.storyboard.authSB.emailLoginVC() else {return}
+        
+        
+        self.navigationController?.pushViewController(email, animated: true)
+        
+        
     }
+    
     @IBAction func onTapPhoneNum() {
      
-        guard let phone = R.storyboard.authSB.PhoneNoVC() else {return}
+        guard let phone = R.storyboard.authSB.loginPhoneVC() else {return}
+        
         self.navigationController?.pushViewController(phone, animated: true)
         
     }

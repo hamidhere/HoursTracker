@@ -22,6 +22,18 @@ class OTPVC: UIViewController {
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var signUpBtn: UIButton!
     @IBOutlet weak var signUpAsGuestBtn: UIButton!
+    
+    //MARK: - PROPERTIES -
+    
+    var phoneNmb : String = ""
+    var email: String = ""
+    var otp : String = ""
+//    var user : UserData?
+//    
+//    var mode : SignMode = {
+//        let mode : SignMode = .fromSignup
+//        return mode
+//    }()
     //MARK: - LifeCycles -
     
     override func viewDidLoad() {

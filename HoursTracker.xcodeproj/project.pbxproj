@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4A9762B9E3594BBAB502DEE4 /* Pods_HoursTracker_HoursTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAC9BFAE3812FAA07E101DE /* Pods_HoursTracker_HoursTrackerUITests.framework */; };
 		A2D44A8A0D4E72D08ACC7034 /* Pods_HoursTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D395FCDD09C266C0E1205E /* Pods_HoursTracker.framework */; };
+		C2B21369305CCDE0000FF4A4 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C2B21368305CCDE0000FF4A4 /* RswiftLibrary */; };
+		C2B2136B305CCDE0000FF4A4 /* rswift in Frameworks */ = {isa = PBXBuildFile; productRef = C2B2136A305CCDE0000FF4A4 /* rswift */; };
 		EF7B9A70A261DEB494BA6131 /* Pods_HoursTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644E3D23561E5898D2D93863 /* Pods_HoursTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,15 +67,11 @@
 		};
 		C2C7BC1430462AD400CD1A5B /* HoursTrackerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = HoursTrackerTests;
 			sourceTree = "<group>";
 		};
 		C2C7BC1E30462AD500CD1A5B /* HoursTrackerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = HoursTrackerUITests;
 			sourceTree = "<group>";
 		};
@@ -85,6 +83,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D44A8A0D4E72D08ACC7034 /* Pods_HoursTracker.framework in Frameworks */,
+				C2B21369305CCDE0000FF4A4 /* RswiftLibrary in Frameworks */,
+				C2B2136B305CCDE0000FF4A4 /* rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,11 +164,11 @@
 				C2C7BBF530462AD100CD1A5B /* Frameworks */,
 				C2C7BBF630462AD100CD1A5B /* Resources */,
 				FB19E585EDDEE596DFD0234F /* [CP] Embed Pods Frameworks */,
-				C2CB6805304E17340014DAAA /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2B2136D305CCE02000FF4A4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C234A8DF304647A50081618E /* HoursTracker */,
@@ -255,6 +255,9 @@
 			);
 			mainGroup = C2C7BBEF30462AD100CD1A5B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C2B21367305CCDE0000FF4A4 /* XCRemoteSwiftPackageReference "R" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C2C7BBF930462AD100CD1A5B /* Products */;
 			projectDirPath = "";
@@ -322,9 +325,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HoursTracker-HoursTrackerUITests/Pods-HoursTracker-HoursTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,26 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2CB6805304E17340014DAAA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 12;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/HoursTracker/SupportingFiles/Generated/R.generated.swift\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3ED4807679760D1FCB17026 /* [CP] Check Pods Manifest.lock */ = {
@@ -403,9 +390,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HoursTracker/Pods-HoursTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HoursTracker/Pods-HoursTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -439,6 +430,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C2B2136D305CCE02000FF4A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = C2B2136C305CCE02000FF4A4 /* RswiftGenerateInternalResources */;
+		};
 		C2C7BC1330462AD400CD1A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C2C7BBF730462AD100CD1A5B /* HoursTracker */;
@@ -779,6 +774,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2B21367305CCDE0000FF4A4 /* XCRemoteSwiftPackageReference "R" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2B21368305CCDE0000FF4A4 /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2B21367305CCDE0000FF4A4 /* XCRemoteSwiftPackageReference "R" */;
+			productName = RswiftLibrary;
+		};
+		C2B2136A305CCDE0000FF4A4 /* rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2B21367305CCDE0000FF4A4 /* XCRemoteSwiftPackageReference "R" */;
+			productName = rswift;
+		};
+		C2B2136C305CCE02000FF4A4 /* RswiftGenerateInternalResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2B21367305CCDE0000FF4A4 /* XCRemoteSwiftPackageReference "R" */;
+			productName = "plugin:RswiftGenerateInternalResources";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C2C7BBF030462AD100CD1A5B /* Project object */;
 }
