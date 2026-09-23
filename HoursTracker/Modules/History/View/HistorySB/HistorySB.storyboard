@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,7 +33,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="402" height="762"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wf7-dr-Ozl">
-                                                        <rect key="frame" x="0.0" y="0.0" width="402" height="54"/>
+                                                        <rect key="frame" x="0.0" y="4" width="402" height="54"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVO-fN-h31">
                                                                 <rect key="frame" x="12" y="9" width="36" height="36"/>
@@ -84,54 +83,54 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="az1-7r-esm" userLabel="Spacer">
-                                                        <rect key="frame" x="0.0" y="54" width="402" height="1"/>
+                                                        <rect key="frame" x="0.0" y="58" width="402" height="1"/>
                                                         <color key="backgroundColor" name="Hairline"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="OJD-fm-bGZ"/>
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gl1-Jm-puF">
-                                                        <rect key="frame" x="0.0" y="57" width="402" height="50"/>
+                                                        <rect key="frame" x="0.0" y="61" width="402" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-yx-hJ9">
                                                                 <rect key="frame" x="0.0" y="0.0" width="57.333333333333336" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" name="TextInk"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMn-ey-eF7">
                                                                 <rect key="frame" x="57.333333333333343" y="0.0" width="57.666666666666657" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" name="TextInk"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ak3-gS-ReV">
                                                                 <rect key="frame" x="114.99999999999999" y="0.0" width="57.333333333333329" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" name="TextInk"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cL-r1-zCA">
                                                                 <rect key="frame" x="172.33333333333334" y="0.0" width="57.333333333333343" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" name="TextInk"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvD-Ka-szW">
                                                                 <rect key="frame" x="229.66666666666666" y="0.0" width="57.333333333333343" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" name="TextInk"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQl-XP-we9">
                                                                 <rect key="frame" x="287" y="0.0" width="57.666666666666686" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkx-Xe-khE">
                                                                 <rect key="frame" x="344.66666666666669" y="0.0" width="57.333333333333314" height="50"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" name="TextMuted"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -142,8 +141,8 @@
                                                         </constraints>
                                                     </stackView>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8ad-W3-O4i">
-                                                        <rect key="frame" x="0.0" y="111" width="402" height="400"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <rect key="frame" x="0.0" y="115" width="402" height="400"/>
+                                                        <color key="backgroundColor" name="Canvas"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="400" id="0fM-mN-Jtk"/>
                                                         </constraints>
@@ -174,7 +173,7 @@
                                                     <constraint firstItem="gl1-Jm-puF" firstAttribute="top" secondItem="az1-7r-esm" secondAttribute="bottom" constant="2" id="c23-WF-kd4"/>
                                                     <constraint firstItem="az1-7r-esm" firstAttribute="leading" secondItem="DgQ-uL-0oa" secondAttribute="leading" id="hHc-Da-Hqn"/>
                                                     <constraint firstAttribute="trailing" secondItem="az1-7r-esm" secondAttribute="trailing" id="jmz-vg-fee"/>
-                                                    <constraint firstItem="wf7-dr-Ozl" firstAttribute="top" secondItem="DgQ-uL-0oa" secondAttribute="top" id="o99-fP-d3g"/>
+                                                    <constraint firstItem="wf7-dr-Ozl" firstAttribute="top" secondItem="DgQ-uL-0oa" secondAttribute="top" constant="4" id="o99-fP-d3g"/>
                                                     <constraint firstItem="wf7-dr-Ozl" firstAttribute="centerX" secondItem="DgQ-uL-0oa" secondAttribute="centerX" id="qks-3g-Fgp"/>
                                                 </constraints>
                                             </scrollView>
@@ -212,6 +211,7 @@
                     <navigationItem key="navigationItem" id="4Lr-RW-xfF"/>
                     <connections>
                         <outlet property="calanderCV" destination="8ad-W3-O4i" id="uO1-BT-kBu"/>
+                        <outlet property="calendarHeightConstraint" destination="0fM-mN-Jtk" id="yZL-SN-u02"/>
                         <outlet property="monthLabel" destination="n1Q-de-nd0" id="QGs-1J-xMu"/>
                     </connections>
                 </viewController>
@@ -256,8 +256,5 @@
         <namedColor name="TextMuted">
             <color red="0.30196078431372547" green="0.396078431372549" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

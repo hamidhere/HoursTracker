@@ -7,6 +7,7 @@
 import Foundation
 import UIKit
 
+
 class CalendarHelper
 {
     let calendar = Calendar.current
@@ -53,10 +54,11 @@ class CalendarHelper
         return calendar.date(from: components)!
     }
     
+    // Monday-first to match the M T W T F S S header: Mon = 0 ... Sun = 6
     func weekDay(date: Date) -> Int
     {
-        let components = calendar.dateComponents([.weekday], from: date)
-        return components.weekday! - 1
+        let weekday = calendar.component(.weekday, from: date)   // Sun = 1 ... Sat = 7
+        return (weekday + 5) % 7
     }
     
 }
